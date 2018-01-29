@@ -1,0 +1,16 @@
+79 79
+3.65
+500.0 500.0 500.0
+66
+9.0
+1.0
+51247235121449
+________________________________________________________
+INPUT
+[1] Atomic elements (FCC only version - USE ATOMIC NUMBER)
+[2] Lattice parameter
+[3] Full size of simulation box (Angstrons, floating point for faster reading/writing but will be rounded)
+[4] Number of holes
+[5] Float average size of holes (Angstrons)
+[6] Float standard deviation of hole size (Angstrons)
+[7] Random number generation seed (Please use large and very large integers for Mersenne Twister)
