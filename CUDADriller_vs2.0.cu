@@ -262,7 +262,7 @@ for(i = 0; i < a; i++){
 					x[l-1] = p*i;
 					y[l-1] = p*j;
 					z[l-1] = p*k;
-					}//index l linearizes memory to be acessed; 3 linear access loops are faster than 2 non linear ones!
+					}
 					else
 					{
 					puts("Error allocating new memory block. Please try again with a smaller file size");
