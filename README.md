@@ -3,7 +3,7 @@ Outputs a "carved" FCC structure with normally distributed holes inside it
 
 INTRODUCTION
 
-This software demonstrates the use of CUDA in building chemical structure files used in many applications (molecular dynamics, monte carlo simulations, ab inition optimizations, etc.). It is meant both as a template with different functions that someone enthusiastic about parallel computing may use to get started, and also as a base model for someone looking to build customized structures that they are unable to find and/or want to add to existing repositories.
+This software demonstrates the use of CUDA in building chemical structure files used in many applications (molecular dynamics, monte carlo simulations, ab initio optimizations, etc.). It is meant both as a template with different functions that someone enthusiastic about parallel computing may use to get started, and also as a base model for someone looking to build customized structures that they are unable to find and/or want to add to existing repositories.
 
 This particular code builds simple FCC (Face-Centered Cubic) lattices with realistic defects, using the cuRAND library to create gaussian-distributed cavities or pores inside the lattice. These defects do not only arise from natural deterioration but may also be done in purpose by experimental means, in order to increase surface area of catalysts, for instance.
 
